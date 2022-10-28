@@ -14,7 +14,7 @@ deploy:
   edge: true
   skip-cleanup: true
   keep-history: true
-  github-token: $GITHUB_TOKEN
+  github-token: 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
   local-dir: dist/
   target-branch: gh-pages
   commit_message: "Deploy release ${TRAVIS_TAG}"
